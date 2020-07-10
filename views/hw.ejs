@@ -1,0 +1,45 @@
+<%- include("partials/header"); %>
+<link rel="stylesheet" type="text/css" href="/style/hw.css">
+ <div class="wrapper">
+	<div class="container"style="height=1000px;">
+		<h1>Homework
+<a href="https://mail.google.com/mail/u/0/?tab=km#inbox?compose=GTvVlcSBnNVZChXfTVLwNPfDJvQNdbQTJgRJFSGTsFxmHBtKjxSRFhDhDQBjstBrksbMXmZhpgQrR" class="logo" target="_blank">
+<img  src="https://lh3.googleusercontent.com/-9jmJTbHmNlQ/XwXLp8s3ctI/AAAAAAAAAAs/YsoNR3KLdxMYlGthA7TY6iP940-QKOXpgCEwYBhgLKtMDAL1Ocqx4scDZWZPtf7LtaOpb9CjRK6eSsHdCT_peX_AH6Eo8hD8ORRp2kOgYoZBtJTpm8RpGunmKWd26-PiXzito0IDeEz_g2uVwT95e0wpgMCHJ7SyPYz_5DVdNtmfiq5smqyx-Ao-Zi5sBGVP7G3STk6OEHvaciVHl7M2ZpjPKIS0c1gf9fx1hFCrYGvJnJA-ho3YH1SZTQF7NKHLxm1E6_G0zmEe2NLKivI1pqfnApX_za5htE5iYUz9t_5_pGOaPa6XCFlP2f9zAgXZvuZhmmslb349YNGfjt4Y1qkZnVh2w6t7z9q36oBeOMNSjrlGNrDiqdliuXb1Iux8ZS1tWELAggFXluFfvDaXzZEQxWMj_hugyg1Auoh7sWnLHADfI0EZacm9By0Co_Px2FQ4I9BamMfjGJT3Bcs4f7D2i6narHB0GucAO2qOzv5DyAzFhPHXGssQp8bd8juow0gQ0OGxFhbwGK8DrDi5Q2XviTn4Zw8nK-GfGscuuzxSLL4MZRRndWCQQKTQF5j5jqH1QjqaYNEwbctZlnn5KwFsL9Eap1OXrfmso96ezdOrXrhG-UpD9Z-fT1cXc_tImzQDH_pkHTJMC7WCjslZnPUf-_XQw4pib-AU/w140-h140-p/20200708_184217.jpg" alt="">
+	</a>
+</h1>
+
+		
+		<form class="form" action="upload.php" method="post" enctype="multipart/form-data">
+			<input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Click here to Submit" name="submit">
+			</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<%- include("partials/footer"); %>
+<script>
+$("#login-button").click(function (event) {
+	event.preventDefault();
+
+	$("form").fadeOut(500);
+	$(".wrapper").addClass("form-success");
+});
+</script>

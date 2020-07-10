@@ -1,5 +1,5 @@
 <%- include("partials/header"); %>
-<link rel="stylesheet" type="text/css" href="/style/home.css">
+<link rel="stylesheet" type="text/css" href="/style/test.css">
 <div class="wrapper" style="height: 600px;">
 	<div class="container"style="height: 1000px;">
 		<h1>Welcome to GuruShishya
@@ -9,25 +9,23 @@
 </h1>
 
 		
-		<form class="form">
-			<button class="btn btn-light btn-lg">Institute</button>
-			<button class="btn btn-light btn-lg">I'm a Teacher</button>
-			<button class="btn btn-light btn-lg">I'm a Student</button>
-
+		<form class="form" action="upload.php" method="post" enctype="multipart/form-data">
+			<input type="file">
+    <input type="submit" value="Click here for Submission" name="submit">
 			</form>
 	</div>
 	
 	<ul class="bg-bubbles">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
+		<li>?</li>
 	</ul>
 </div>
 <%- include("partials/footer"); %>
