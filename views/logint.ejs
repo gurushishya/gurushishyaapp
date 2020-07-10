@@ -1,0 +1,42 @@
+<%- include("partials/header"); %>
+<link rel="stylesheet" type="text/css" href="/style/logint.css">
+<div class="wrapper" style="height: 750px;">
+	<div class="container">
+		<h1>Teacher Login
+<a href="https://mail.google.com/mail/u/0/?tab=km#inbox?compose=GTvVlcSBnNVZChXfTVLwNPfDJvQNdbQTJgRJFSGTsFxmHBtKjxSRFhDhDQBjstBrksbMXmZhpgQrR" class="logo" target="_blank">
+<img  src="https://lh3.googleusercontent.com/-9jmJTbHmNlQ/XwXLp8s3ctI/AAAAAAAAAAs/YsoNR3KLdxMYlGthA7TY6iP940-QKOXpgCEwYBhgLKtMDAL1Ocqx4scDZWZPtf7LtaOpb9CjRK6eSsHdCT_peX_AH6Eo8hD8ORRp2kOgYoZBtJTpm8RpGunmKWd26-PiXzito0IDeEz_g2uVwT95e0wpgMCHJ7SyPYz_5DVdNtmfiq5smqyx-Ao-Zi5sBGVP7G3STk6OEHvaciVHl7M2ZpjPKIS0c1gf9fx1hFCrYGvJnJA-ho3YH1SZTQF7NKHLxm1E6_G0zmEe2NLKivI1pqfnApX_za5htE5iYUz9t_5_pGOaPa6XCFlP2f9zAgXZvuZhmmslb349YNGfjt4Y1qkZnVh2w6t7z9q36oBeOMNSjrlGNrDiqdliuXb1Iux8ZS1tWELAggFXluFfvDaXzZEQxWMj_hugyg1Auoh7sWnLHADfI0EZacm9By0Co_Px2FQ4I9BamMfjGJT3Bcs4f7D2i6narHB0GucAO2qOzv5DyAzFhPHXGssQp8bd8juow0gQ0OGxFhbwGK8DrDi5Q2XviTn4Zw8nK-GfGscuuzxSLL4MZRRndWCQQKTQF5j5jqH1QjqaYNEwbctZlnn5KwFsL9Eap1OXrfmso96ezdOrXrhG-UpD9Z-fT1cXc_tImzQDH_pkHTJMC7WCjslZnPUf-_XQw4pib-AU/w140-h140-p/20200708_184217.jpg" alt="">
+	</a>
+</h1>
+
+		
+		<form action="/teacher/dashboard" class="form" method="POST">
+			<input type="text" name="id" placeholder="User ID">
+			<input type="password" name="pass" placeholder="Password">
+			<input type="button" value="Submit">
+
+		</form>
+	</div>
+	
+	<ul class="bg-bubbles">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+<%- include("partials/footer"); %>
+<script>
+    $("#login-button").click(function (event) {
+        event.preventDefault();
+    
+        $("form").fadeOut(500);
+        $(".wrapper").addClass("form-success");
+    });
+    </script>
+    
